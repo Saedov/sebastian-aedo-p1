@@ -1,0 +1,161 @@
+body {
+  font-family: "Open Sans", sans-serif, "Times New Roman";
+  margin: 0%;
+}
+#mainLogo {
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#logoText {
+  font-size: 80%;
+  text-align: center;
+  margin-bottom: 3%;
+}
+#greeting {
+  white-space: pre-line;
+  text-align: center;
+  background-color: rgb(33, 150, 252);
+  padding: 2%;
+}
+h1 {
+  text-align: center;
+  margin: 5% 20% 5% 20%;
+  padding: 2% 3% 2% 3%;
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(33, 150, 252);
+}
+.Organization {
+  margin-left: 2%;
+  margin-top: 5%;
+  text-decoration: underline;
+}
+ul {
+  list-style-type: none;
+}
+.info,
+.infoVN,
+.infoVY {
+  font-weight: bolder;
+  margin-left: 4%;
+}
+.infoVN {
+  color: green;
+  margin-bottom: 3%;
+}
+.infoVY {
+  color: red;
+  margin-bottom: 3%;
+}
+.container {
+  display: flex;
+  gap: 15%;
+}
+.image {
+  width: 30%;
+  margin-left: 15%;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th,
+td {
+  border: 0.1em solid white;
+  border-radius: 10%;
+  background-color: rgb(33, 150, 252);
+  padding: 5%;
+}
+th {
+  text-decoration: underline;
+  color: white;
+}
+td {
+  font-weight: bolder;
+}
+h4 {
+  margin-top: 5%;
+  margin-left: 2%;
+  font-style: italic;
+  text-decoration: underline;
+}
+#city {
+  display: flex;
+  text-align: center;
+  margin-right: 4%;
+}
+#city li {
+  background-color: rgb(33, 150, 252);
+  margin: 1%;
+  border-radius: 5%;
+  padding: 1%;
+}
+h3 {
+  margin-left: 5%;
+  font-style: oblique;
+}
+.climate {
+  margin-left: 7%;
+  list-style-type: square;
+}
+#warm,
+#cold {
+  border: 2px;
+  border-radius: 20%;
+  margin-right: 70%;
+  padding: 2%;
+  padding-left: 5%;
+  border-style: dashed;
+}
+#warm {
+  border-color: orange;
+}
+#cold {
+  border-color: blue;
+}
+#low,
+#luxury {
+  margin-left: 7%;
+  list-style-type: circle;
+  border: 5px;
+  border-radius: 20%;
+  margin-right: 70%;
+  padding: 2%;
+  padding-left: 5%;
+  border-style: dotted;
+}
+#low {
+  border-color: darkgoldenrod;
+}
+#luxury {
+  border-color: fuchsia;
+}
+#adv,
+#relax,
+#cult {
+  margin-left: 7%;
+  list-style-type: disc;
+  border: 5px;
+  border-radius: 20%;
+  margin-right: 70%;
+  padding: 2%;
+  padding-left: 5%;
+  border-style: double;
+}
+#adv {
+  border-color: green;
+}
+#relax {
+  border-color: darkblue;
+}
+#cult {
+  border-color: chocolate;
+}
+footer {
+  text-align: right;
+  margin-top: 5%;
+  font-weight: bolder;
+}
